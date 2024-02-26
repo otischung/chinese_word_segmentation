@@ -39,8 +39,8 @@ def main():
     words_path = "dict_no_space.txt"
     if not os.path.isfile(words_path):
         print(f"Warning, {words_path} doesn't exist, download from Google Drive automatically.")
-        gdown.download("https://drive.google.com/u/0/uc?id=14pARYkp8t3XlAGQ3H9QJlEizLpHInsfh&export=download", output=f"./{words_path}", fuzzy=True)
-    with open(words_path, "r") as f:
+        gdown.download("https://drive.google.com/file/d/1XD1BhHda7qsX7vu2ec0ZXIBv5RP8pauo/view?usp=sharing", output=f"./{words_path}", fuzzy=True)
+    with open(words_path, "r", encoding="utf-8") as f:
         words = f.read()
     words = words.split('\n')
     if words[-1] == "":

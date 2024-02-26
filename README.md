@@ -24,3 +24,9 @@ You can pass your sentence into program using command-line arguments
 python main.py "狼若回頭，必有緣由，不是報恩，就是報仇。"
 ```
 
+
+
+## Result
+
+![result](./result.png)
+
